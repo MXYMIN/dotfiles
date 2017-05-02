@@ -16,7 +16,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin'  }
 Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/rainbow_parentheses.vim'
-Plug 'tComment'
+Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-sensible'
 
 call plug#end()
@@ -72,5 +72,5 @@ set ruler
 "Shortcuts
 let mapleader = ' '
 vnoremap <leader>y "*Y
-
+set pastetoggle=<F2>
 :imap jk <Esc>
