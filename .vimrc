@@ -27,7 +27,7 @@ if has("gui_running")
 	colorscheme solarized
 	set guifont=Menlo\ Regular:h14
 else
-	set background=dark
+	set background=light
 	colorscheme solarized
 endif
 
